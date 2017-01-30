@@ -1,0 +1,65 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 
+{
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+#content
+{
+    margin:10px;
+}
+
+#chicken
+{
+    padding: 10px;
+    background: beige;
+}
+
+#chicken p
+{
+    padding: 5px;
+}
+
+ul.nav li
+{
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 1.7em;
+    padding: 7.5px 0;
+}
+
+ul.nav li:nth-child(3)
+{
+    border:none;
+    padding-bottom: 0;
+}
+
+ul.nav li:nth-child(1)
+{
+    padding-top: 0;
+}
+ #menu
+{
+        background: lightgoldenrodyellow;
+}
+
+@media (min-width: 768px)
+{
+    #menu
+    {
+        display: none !important;
+    }
+}
+
